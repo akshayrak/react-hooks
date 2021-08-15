@@ -13,7 +13,7 @@ const reducer = (state,action)=>{
 }
 
 const UseReducerComponent = () => {
-    const [state, dispatch] = useReducer(reducer,{count: 0 ,text:"something"})
+    const [state, dispatch] = useReducer(reducer,{count: 0 ,text:""})
     return (
         <div>
             <h1>useReducer</h1>
